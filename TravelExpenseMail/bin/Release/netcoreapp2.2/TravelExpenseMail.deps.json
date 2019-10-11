@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "TravelExpenseMail/1.0.0": {
+        "dependencies": {
+          "RazorLight": "2.0.0-beta1"
+        },
+        "runtime": {
+          "TravelExpenseMail.dll": {}
+        }
+      },
+      "RazorLight/2.0.0-beta1": {
+        "runtime": {
+          "lib/netstandard2.0/RazorLight.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TravelExpenseMail/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RazorLight/2.0.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-daRhgPoFHUmmnEiUNTGDi2EuKbvpe5tVGkxwuYSuM0+k3uhSdzceJKuEq6FbbZn6aoS9nKGp2rr2cjhO1JvZEQ==",
+      "path": "razorlight/2.0.0-beta1",
+      "hashPath": "razorlight.2.0.0-beta1.nupkg.sha512"
+    }
+  }
+}

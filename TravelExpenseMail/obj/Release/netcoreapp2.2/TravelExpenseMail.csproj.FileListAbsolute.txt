@@ -1,0 +1,11 @@
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\bin\Release\netcoreapp2.2\Templates\ExpenseSubmit.cshtml
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\bin\Release\netcoreapp2.2\TravelExpenseMail.deps.json
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\bin\Release\netcoreapp2.2\TravelExpenseMail.runtimeconfig.json
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\bin\Release\netcoreapp2.2\TravelExpenseMail.runtimeconfig.dev.json
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\bin\Release\netcoreapp2.2\TravelExpenseMail.dll
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\bin\Release\netcoreapp2.2\TravelExpenseMail.pdb
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\obj\Release\netcoreapp2.2\TravelExpenseMail.csprojAssemblyReference.cache
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\obj\Release\netcoreapp2.2\TravelExpenseMail.AssemblyInfoInputs.cache
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\obj\Release\netcoreapp2.2\TravelExpenseMail.AssemblyInfo.cs
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\obj\Release\netcoreapp2.2\TravelExpenseMail.dll
+C:\Users\Awais.ilyas\source\repos\TravelExpenseChallenge\TravelExpenseMail\obj\Release\netcoreapp2.2\TravelExpenseMail.pdb

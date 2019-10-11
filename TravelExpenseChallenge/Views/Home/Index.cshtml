@@ -1,0 +1,53 @@
+﻿@model IEnumerable<TravelExpenseViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+    var role = Context.Request.Query["role"];
+}
+<div class="row">
+    <h3>Expenses List</h3>
+</div>
+@if (role == "FinanceManager" && Model != null && Model.Count() > 0)
+{
+    <div class="row">
+        <a asp-controller="home" asp-action="exporttoexcel" asp-route-id="" class="btn btn-secondary">Export to Excel</a>
+    </div>
+}
+<div class="card-deck">
+    @if (Model != null && Model.Count() > 0)
+    {
+        foreach (var expense in Model)
+        {
+            var photoPath = "~/images/" + (expense.PhotoPath ?? "no-image.png");
+            <div class="col-6">
+                <div class="card m-3">
+                    <div class="card-header">
+                        <h3>@expense.Title</h3>
+                    </div>
+                    <div class="card-body text-center">
+                        <img class="card-img-top" src="@photoPath" asp-append-version="true" />
+                        <h4>Employee: @(expense.Employee.FirstName + " " + expense.Employee.LastName) (@expense.Employee.Email)</h4>
+                        <h4>Status: @expense.Status</h4>
+                        <h4>Date: @expense.SubmittedDate.ToString("MM/dd/yyyy hh:mm tt")</h4>
+                    </div>
+                    @if (role == "TeamLeader")
+                    {
+                        <div class="card-footer text-center">
+                            <a asp-controller="home" asp-action="details" asp-route-id="@expense.Id" class="btn btn-primary">View</a>
+                            @if (expense.Status == ExpenseStatus.Pending)
+                            {
+                                <a asp-controller="home" asp-action="approve" asp-route-id="@expense.Id" class="btn btn-secondary">Approve</a>
+                                <a asp-controller="home" asp-action="reject" asp-route-id="@expense.Id" class="btn btn-danger">Reject</a>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-6">
+            No expense found
+        </div>
+    }
+</div>
