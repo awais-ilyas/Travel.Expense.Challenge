@@ -1,5 +1,5 @@
 # Introduction
- Trivago Travel Expense Challenge aims to automate the finance department manual worksheet with cutting edge technologies facilities the employees to submit their trip expenses,
+ Travel Expense Challenge aims to automate the finance department manual worksheet with cutting edge technologies facilities the employees to submit their trip expenses,
  team leaders can approve or reject those expense of their relevant members of team and finance manager should notified by email whenever a Travel expense being submitted,
  s/he can see a user-friendly interface of web application to view overall reporting of employees Travel expense submitted and also export in excel sheet.
 
